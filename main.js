@@ -2,7 +2,6 @@ import fs from "fs/promises";
 import { HttpsProxyAgent } from "https-proxy-agent";
 import fetch from "node-fetch";
 import { jwtDecode } from "jwt-decode";
-import { getNewToken } from "./newToken.js";
 import { resolve } from "path";
 const headers = {
   accept: "application/json, text/plain, */*",
